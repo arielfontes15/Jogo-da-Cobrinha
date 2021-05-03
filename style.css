@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+  }
+
+  body {
+    height: 95vh;
+    width: 95;
+    background-color: #586669;
+  }
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box div {
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+  }
+  h1 {
+    color: #b7d4f1;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+  }
+  @media only screen and (max-width: 1023px) {
+    canvas {
+      height: 350px;
+      width: 350px;
+      margin-top: 5px;
+    }
+  
+    h1{
+      display: none;
+    }
+    .buttons{
+      display: block;
+      margin-top: 20px;
+      width: 100vw;
+    }
+    .div-side {
+      margin: 2px auto;
+      width: 250px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  
